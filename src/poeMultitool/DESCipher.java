@@ -38,7 +38,6 @@ public class DESCipher
         (byte) 0xde, (byte) 0x33, (byte) 0x10, (byte) 0x12,
     };
     private static File userData = new File(System.getProperty("user.dir")+"/userdata.txt");
-    private static File encryptedUserData = new File(System.getProperty("user.dir")+"/user data.txt");
     private static BufferedReader reader;
     
     public static void createEncryptedFile()
