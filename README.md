@@ -8,7 +8,7 @@ SETUP
 ===============
 
 The file doesn't need an installation before running on your PC.
-To run it you should have the Java Runtime Enviroment (JRE) installed.
+To run it you must have the Java Runtime Enviroment (JRE) installed.
 
 You can get the latest version of JRE here: http://www.oracle.com/technetwork/java/javase/downloads/java-se-jre-7-download-432155.html
 
