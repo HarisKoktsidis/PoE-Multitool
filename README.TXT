@@ -1,32 +1,34 @@
-========================
-BUILD OUTPUT DESCRIPTION
-========================
+PoE - Multitool v.01
+===================
 
-When you build an Java application project that has a main class, the IDE
-automatically copies all of the JAR
-files on the projects classpath to your projects dist/lib folder. The IDE
-also adds each of the JAR files to the Class-Path element in the application
-JAR files manifest file (MANIFEST.MF).
+An app that provides many useful tools to a player that notify him about different aspects of the game.
+Does not interfere with the game in any way and is not a violation of GGG's ToS.
 
-To run the project from the command line, go to the dist folder and
-type the following:
+Setup
+===================
 
-java -jar "PoE_Multitool.jar" 
+This application doesn't need to be installed. 
+Download the zip folder, unzip it anywhere in your desktop and run PoE_Multitool.jar.
+You must have Java Runtime Enviroment installed.
 
-To distribute this project, zip up the dist folder (including the lib folder)
-and distribute the ZIP file.
+You can download the latest JRE from Oracle here: http://tinyurl.com/3scxmt7
 
-Notes:
+Changelog
+====================
 
-* If two JAR files on the project classpath have the same name, only the first
-JAR file is copied to the lib folder.
-* Only JAR files are copied to the lib folder.
-If the classpath contains other types of files or folders, these files (folders)
-are not copied.
-* If a library on the projects classpath also has a Class-Path element
-specified in the manifest,the content of the Class-Path element has to be on
-the projects runtime path.
-* To set a main class in a standard Java project, right-click the project node
-in the Projects window and choose Properties. Then click Run and enter the
-class name in the Main Class field. Alternatively, you can manually type the
-class name in the manifest Main-Class element.
+Version 0.1 (Alpha release):
+* Added support for PM notifications.
+* Added support for message notification on the forums.
+* Added support for poe.xyz.is automatic online status extender.
+* You can now save your data in the application so you won't have to retype them on every execution.
+
+IMPORTANT: Your data is saved in the file userdata.txt
+Although encrypted it's HIGHLY ADVISABLE that nobody else gets access to this file.
+
+Known Bugs
+===================
+
+Checking your messages on the forum component seems to "freeze" the program GUI for a few seconds.
+This is a known bug and it will be fixed in the next version.
+
+
