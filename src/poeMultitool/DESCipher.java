@@ -30,7 +30,7 @@ public class DESCipher
     // The password used to encrypt/decrypt the user data. Ommitted in the repository for obvious reasons.
     // For future developers replace it with a "your-password".toCharArray();
     // Minium size: 8 characters
-    private static final char[] PASSWORD = "r10nwuEdokaQ".toCharArray();
+    private static final char[] PASSWORD = "".toCharArray();
     private static final byte[] SALT = 
     {
         (byte) 0xde, (byte) 0x33, (byte) 0x10, (byte) 0x12,
