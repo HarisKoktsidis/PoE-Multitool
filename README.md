@@ -12,11 +12,10 @@ To run it you should have the Java Runtime Enviroment (JRE) installed.
 
 You can get the latest version of JRE here: http://www.oracle.com/technetwork/java/javase/downloads/java-se-jre-7-download-432155.html
 
-1) Download the program.
-2) Extract the folder included in the zip.
-3) Run PoEMultitool.jar
-
-Note: The PoEMultitool.jar must be in the same directory as the folder "lib" included in the zip.
+    1) Download the program.
+    2) Extract the folder included in the zip.
+    3) Run PoEMultitool.jar
+    Note: The PoEMultitool.jar must be in the same directory as the folder "lib" included in the zip.
 
 CHANGELOG
 ==============
